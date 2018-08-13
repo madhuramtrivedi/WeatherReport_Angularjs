@@ -1,0 +1,19 @@
+<div>
+	<header-block></header-block>
+	<div class="cls-list">
+		<h3>{{ cityName }} Weather Forecast</h3>
+		<div class="list-group">
+			<div class="list-group-item list-group-item" ng-if="filterDate(forecast.dt)" ng-repeat="forecast in forecastData">
+				<div>
+					<div class="cls-item-head">
+					  Date: {{ forecast.dt_txt }}
+					</div>
+					<div style="padding-left: 10px">
+						<h5 class="card-title"><strong>Sea Level:</strong> {{ forecast.main.sea_level }}</h5>
+						<h5 class="card-title"><strong>Temperature:</strong> {{ forecast.main.temp }}</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

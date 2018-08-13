@@ -1,0 +1,36 @@
+.cls-list {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.cls-logo {
+	height: 35px;
+	width: 42px;
+	
+}
+
+.cls-back-button {
+	height: 30px;
+	width: 35px;
+	margin-top: 12px;
+	cursor: pointer;
+}
+
+.cls-header {
+	margin: 0 10% 0 10%;
+}
+
+.cls-item-head {
+    font-size: medium;
+	background-color: rgb(51, 102, 153);
+	color: #FFFFFF;
+    padding: 2px 2px 2px 10px;
+}
+
+.cls-list-item {
+	cursor: pointer;
+}
+
+.cls-header-center{
+	margin-left: 39% !important;
+}

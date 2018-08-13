@@ -1,0 +1,23 @@
+<div>
+	<header-block></header-block>
+	<div class="cls-list">
+		<div class="list-group">
+			<div class="list-group-item list-group-item cls-list-item" ng-click="checkSealevel(cityData.id)" ng-repeat="cityData in cityWeatherData">
+				<div>
+					<div class="cls-item-head">
+					  {{ cityData.name }}
+					</div>
+					<div style="padding-left: 10px">
+					  <h5><strong>Weather:</strong> {{ cityData.weather[0].description }}</h5>
+					  <p>
+						  <strong>Sunrise:</strong> {{ convertToTime(cityData.sys.sunrise) }}
+					  </p>
+					  <p>
+							<strong>Sunset:</strong> {{ convertToTime(cityData.sys.sunset) }}
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
