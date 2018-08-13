@@ -8,14 +8,12 @@ How to run.
 3. Run the project in localhost.
 
 Following AngularJs concepts are demonstrated: 
-1. Controllers
-2. $scope
-3. $rootScope
-4. value
-5. directive
-6. Proper templating and styling of views
-7. Service calls using $http
-8. Directory structure for managing. 
-9. Usage of node_modules to install Karma and Jasmine to write Unit tests. 
-10. config
-11. Routing using ui.router
+1. Controllers, Views, $scope, $rootScope
+2. value
+3. directive
+4. Proper templating and styling of views
+5. Service calls using $http
+6. Directory structure for managing. 
+7. Usage of node_modules to install Karma and Jasmine to write Unit tests. 
+8. config
+9. Routing using ui.router
