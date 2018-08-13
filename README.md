@@ -17,3 +17,5 @@ Following AngularJs concepts are demonstrated:
 7. Service calls using $http
 8. Directory structure for managing. 
 9. Usage of node_modules to install Karma and Jasmine to write Unit tests. 
+10. config
+11. Routing using ui.router
